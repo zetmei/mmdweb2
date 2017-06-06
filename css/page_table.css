@@ -1484,7 +1484,7 @@ nav .nav01 > li .nav02 > li:hover{
 } */
 article .article01 .news > .newsTitle h2 ,article .article01 .post .postTitle h2{
     line-height: 53px;
-    margin-top: 32px;
+    margin-top: 13px;
     font-size: 24px;
     font-weight: 900;
 }
@@ -1522,18 +1522,18 @@ footer{
 .footer-control {
     cursor: pointer;
     position: absolute;
-    top: -45px;
+    top: -53px;
     color: #fff;
     display: block;
     right: 91px;
     font-size: 20px;
     padding: 0;
-    background-color: #d3dbde;
+    /* background-color: #d3dbde; */
     /* box-shadow: 2px 0px 2px #aeb1b1; */
-    width: 105px;
+    width: 211px;
     display: block;
-    height: 45px;
-    /* background: url(../img/icon/footer-arrow.png) 0 bottom no-repeat; */
+    height: 53px;
+    background: url(../img/icon/footer-arrow.png) 0 bottom no-repeat;
     background-size: 100%;
 }
 .footer-control:before{
@@ -1541,9 +1541,9 @@ footer{
     content: '';
     width: 25px;
     height: 27px;
-    right: 42px;
     top: 16px;
-    background: url(../img/icon/footer-arrow04.png) 0 0 no-repeat;
+    right: 93px;
+    background: url(../img/icon/footer-arrow09.png) 0 0 no-repeat;
     background-size: 100%;
     animation-name: footer-arrow-animate;
     animation-iteration-count: infinite;
@@ -1552,16 +1552,16 @@ footer{
     animation-direction: inherit;
 }
 @keyframes footer-arrow-animate {
-  10% { background: url(../img/icon/footer-arrow04.png) 0 0 no-repeat;    background-size: 100%;}
-  40% { background: url(../img/icon/footer-arrow05.png) 0 0 no-repeat;    background-size: 100%;}
-  60% { background: url(../img/icon/footer-arrow06.png) 0 0 no-repeat;    background-size: 100%;} 
-  100% { background: url(../img/icon/footer-arrow06.png) 0 0 no-repeat;    background-size: 100%;} 
+  10% { background: url(../img/icon/footer-arrow07.png) 0 0 no-repeat;    background-size: 100%;}
+  40% { background: url(../img/icon/footer-arrow08.png) 0 0 no-repeat;    background-size: 100%;}
+  60% { background: url(../img/icon/footer-arrow09.png) 0 0 no-repeat;    background-size: 100%;} 
+  100% { background: url(../img/icon/footer-arrow09.png) 0 0 no-repeat;    background-size: 100%;} 
 /*    10% {top: 22px;}
    40% {top: 28px;}
   100% {top: 28px;}  */
 }
 .footer-control.active:before{
-    background: url(../img/icon/footer-arrow03.png) 0 -1px no-repeat;
+    background: url(../img/icon/footer-arrow10.png) 0 -1px no-repeat;
     background-size: 100%;
     animation-name: footer-arrow-animate-stop;
 }

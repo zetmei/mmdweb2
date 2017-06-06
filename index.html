@@ -10,46 +10,49 @@
     <meta name="viewport" content="width=device-width,intial scale=1.0">
     <title>國防部國防資訊網</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/all-style.css?20170407">
-    <link rel="stylesheet" href="css/index.css?20170407" media="screen and (min-width:951px)">
-    <link rel="stylesheet" href="css/phone.css?20170407" media="screen and (max-width:950px)">
+    <link rel="stylesheet" href="css/all-style.css">
+    <link rel="stylesheet" href="css/index.css" media="screen and (min-width:951px)">
+    <link rel="stylesheet" href="css/phone.css" media="screen and (max-width:950px)">
     <link rel="stylesheet" href="css/base.css?20170412" media="screen and (min-width:951px)">
     <link rel="stylesheet" href="css/base-phone.css?20170412" media="screen and (max-width:950px)">
-    <link rel="stylesheet" href="css/font-base.css?20170407">
+    <link rel="stylesheet" href="css/page_table.css">
+    <link rel="stylesheet" href="css/font-base.css">
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-    <script src="js/index.js?20170407"></script>
+    <script src="js/index.js"></script>
+    <script src="js/adjust.js"></script>
 </head>
 
-<body>
+<body class="index"><!-- 0605嘉鎂新增header內層新增一層div -->
     <div class="wrapper rwdW autoH">
         <div class="phoneNo headerFox"></div>
-        <header class="rwdW">
-            <div class="logo">
-                <a href="index.html"><img src="img/logo.png" alt=""></a>
-            </div>
-            <div class="headerText autoH phoneNo">
-                現在是民國106年04月12日 星期三 您是第425846個訪客
-            </div>
-            <div class="headerSub autoH phoneNo">
-                <ul clss="rwdW autoH">
-                    <li><a href="#" lang="分類檢索">分類檢索</a></li>
-                    <li><a href="#" lang="網站導覽">網站導覽</a></li>
-                    <li><a href="#" lang="English">English</a></li>
-                    <li><a href="#" lang="兒童版">兒童版</a></li>
-                </ul>
-            </div>
-            <div class="hearderLest phoneNo">
-                <div><img src="img/share.png" alt="" class="responsive_img pointer"></div>
-                <div><img src="img/rss.png" alt="" class="responsive_img pointer"></div>
-            </div>
-            <div class="navPhone pcNo"><span class="pointer" id="navShow"></span>
-                <div class="searchMain textless">
-                    <div class="autoH">
-                        <button class="searchBt">
-                            <label for="search01"><img src="img/search.png" alt="search" class="pointer"></button>
-                        </label>
-                        <input type="text" placeholder="Search " lang="搜尋" id="search01">
+        <header class="rwdW"><!-- 0605嘉鎂新增header內層新增一層div -->
+            <div class="max-width-header">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+                <div class="headerText autoH phoneNo">
+                    現在是民國106年04月12日 星期三 您是第425846個訪客
+                </div>
+                <div class="headerSub autoH phoneNo">
+                    <ul clss="rwdW autoH">
+                        <li><a href="#" lang="分類檢索">分類檢索</a></li>
+                        <li><a href="#" lang="網站導覽">網站導覽</a></li>
+                        <li><a href="#" lang="English">English</a></li>
+                        <li><a href="#" lang="兒童版">兒童版</a></li>
+                    </ul>
+                </div>
+                <div class="hearderLest phoneNo">
+                    <div><img src="img/share.png" alt="" class="responsive_img pointer"></div>
+                    <div><img src="img/rss.png" alt="" class="responsive_img pointer"></div>
+                </div>
+                <div class="navPhone pcNo"><span class="pointer" id="navShow"></span>
+                    <div class="searchMain textless">
+                        <div class="autoH">
+                            <a class="searchBt">
+                                <img src="img/search.png" alt="search" class="pointer"></a>
+                            <input type="text" placeholder="Search " lang="搜尋" id="search01">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -60,8 +63,7 @@
             <ul class="nav01 rwdW">
                 <li class="nav01Top">
                     <span>關於國防部<img src="img/navIcon.png" alt="關於國防部" lang="關於國防部"></span>
-                    <ul class="nav02 bg01
-">
+                    <ul class="nav02 bg01">
                         <li>
                             <a href="#" lang="國防部簡介">國防部簡介</a>
                         </li>
@@ -191,10 +193,9 @@
          <!--    <img src="img/searchBg-phone.png" alt="" class="responsive_img pcNo"> -->
             <div class="searchMain positionAuto rwdW textless phoneNo">
                 <div class="autoH">
-                    <button class="searchBt">
-                        <label for="search02"><img src="img/search.png" alt="search" class="pointer"></button>
-                    </label>
-                    <input type="text" placeholder="Search" lang="搜尋" id="search02">
+                    <a class="searchBt">
+                        <img src="img/search.png" alt="search" class="pointer"></a>
+                    <input type="text" placeholder="Search" title="搜尋" id="search02">
                 </div>
                 <p class="textless" lang="熱門：軍事新聞 國防要聞 陸軍裝備 海軍裝備 空軍裝備 電話號碼查詢 公告專區 記者會參考資料<">熱門：軍事新聞 國防要聞 陸軍裝備 海軍裝備 空軍裝備 電話號碼查詢 公告專區 記者會參考資料</p>
             </div>
@@ -202,9 +203,8 @@
         <article>
             <div class="article01">
                 <div class="news autoH">
-                    <dvi class="newsTitle">
-                        <h1></h1>
-                        <h2>軍事新聞</h2></dvi>
+                    <div class="newsTitle">
+                        <h2>軍<br class="hidden-950">事<br class="hidden-950">新<br class="hidden-950">聞</h2></div>
                     <div class="article01Contain01">
                         <div class="rwdW botttomline">
                             <div class="Contain01Left z_index2"><a href="#" class="positionAuto"><img src="img/021702null.png" alt="" class="positionAuto"></a><img src="img/021702.jpg" alt="演習" class="positionAuto"></div>
@@ -230,26 +230,22 @@
                 </div>
                 <div class="post autoH">
                     <div class="postTitle">
-                        <h2 lang="公告專區">公告專區</h2></div>
+                        <h2 lang="公告專區">公<br class="hidden-950">告<br class="hidden-950">專<br class="hidden-950">區</h2></div>
                     <div class="article01Contain02">
                         <div class=" rwdW botttomline">
                             <span class="date">2017.04.06</span>
-                            <a href="#" lang=" 民國106年全民國
-防教育「暑期戰鬥營」活動連結">                  民國106年全民國
-防教育「暑期戰鬥營」活動</a>
+                            <a href="#" lang=" 民國106年全民國防教育「暑期戰鬥營」活動連結">民國106年全民國防教育「暑期戰鬥營」活動</a>
+                            <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文..</p>
                         </div>
                         <div class=" rwdW botttomline">
                             <span class="date">2017.04.06</span>
-                            <a href="#" lang=" 國軍醫院106年兒
-童清明連續假期開診計畫連結">                  國軍醫院106年兒
-童清明連續假期開診計畫
-</a>
+                            <a href="#" lang=" 國軍醫院106年兒童清明連續假期開診計畫連結">國軍醫院106年兒童清明連續假期開診計畫</a>
+                            <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文..</p>
                         </div>
                         <div class=" rwdW">
                             <span class="date">2017.04.06</span>
-                            <a href="#" lang=" 國防部軍備局舉辦
-陸軍砲兵訓練指揮部「關廟湯山連結">                  國防部軍備局舉辦
-陸軍砲兵訓練指揮部「關廟湯山...</a>
+                            <a href="#" lang=" 國防部軍備局舉辦陸軍砲兵訓練指揮部「關廟湯山連結">國防部軍備局舉辦陸軍砲兵訓練指揮部「關廟湯山...</a>
+                            <p>內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文..</p>
                         </div>
                     </div>
                 </div>
@@ -273,14 +269,28 @@
             </div>
         </article>
         <div class="article03 autoH">
-            <div class="article03Title rwdW"><img src="img/cameratitle02.jpg" alt="國軍攝影標題" class="responsive_img phoneNo">
-                <h2 lang="國家攝影" class="pcNo">國家攝影</h2></div>
-            <div class="article03-1 z_index2"><a href="#" class="positionAuto rwdW"><img src="img/camera02null.png" alt="" class="responsive_img"></a><img src="img/camera02.jpg" alt="國軍戰備演訓" class="responsive_img">
+            <div class="article03Title rwdW">
+                <img src="img/cameratitle02.jpg" alt="國軍攝影標題" class="responsive_img phoneNo">
+                <h2 lang="國家攝影" class="pcNo">國家攝影</h2>
+            </div>
+            <div class="article03-1 z_index2">
+                <div class="indexwrap armyvediowarp">
+                    <div class="armyvedio">
+                        <a class="mask" href="http://mna.gpwb.gov.tw"></a>
+                        <iframe title="國軍輯影" src="http://mna.gpwb.gov.tw/" width="1340" height="538" frameborder="0" allowTransparency="true" onscroll="off" scrolling="no"></iframe> 
+
+                    </div>
+
+                </div>
+            </div>
+                
+                <!-- 舊的 -->
+                <!-- <img src="img/camera02null.png" alt="" class="responsive_img"></a><img src="img/camera02.jpg" alt="國軍戰備演訓" class="responsive_img">
                 <div class="subText">
                     <h3>國軍戰備演訓</h3>
                     <a href="#" lang="臺北市民安3號演習/系列一 連結">臺北市民安3號演習/系列一</a>
-                </div>
-            </div>
+                </div> -->
+            
             <!--      <div class="article03-2"><img src="img/02.JPG" alt="國軍戰備演訓" class="responsive_img">
                 <div class="subText">
                     <h3>國軍戰備演訓</h3>
@@ -373,7 +383,7 @@
                 </ul>
             </div>
         </div>
-        <aside class="autoH">
+        <aside class="article05 autoH"><!-- 0605嘉鎂新增"article05" -->
             <div class="aside01 rwdW">
                 <div class="rwdW bgTitle"><img src="img/title04.jpg" alt="" class="responsive_img phoneNo">
                     <h2 lang="軍事單位連結" class="pcNo">軍事單位連結</h2></div>
@@ -447,6 +457,15 @@
             </div>
         </aside>
         <div class="footer autoH rwdW phoneNo">
+           <!--  <a class="footer-control">
+                <span style="display: none;">打開</span>
+                <span style="display: block;">關閉</span>
+            </a> -->
+            <a class="footer-control">
+                <span class="bg"></span>
+                <span style="display: none;"></span>
+                <span style="display: block;"></span>
+            </a>
             <ul class="autoH">
                 <li>
                     <span>關於國防部</span>
@@ -597,19 +616,23 @@
                     </span>
                     </div>
                     <p>
-                        <p lang="國防部版權所有©2015 Ministry of National Defense.All rights reserved.">國防部版權所有©2015 Ministry of National Defense.All rights reserved.
-                            <p lang="機關地址：10462臺北市中山區北安路409號 總機電話：(02)2311-6117(代表號) 國軍人員申訴專線：1985">機關地址：10462臺北市中山區北安路409號 總機電話：(02)2311-6117(代表號) 國軍人員申訴專線：1985
-                                <p lang="最佳瀏覽環境：IE10.0.以上版本.螢幕解析度1024x768">最佳瀏覽環境：IE10.0.以上版本.螢幕解析度1024x768
-                                    <p lang="網站更新日期：網站更新日期：20170410">網站更新日期：20170410
-                                    </p>
+                    國防部版權所有©2015 Ministry of National Defense.All rights reserved.<br>
+                    機關地址：10462臺北市中山區北安路409號<br>總機電話：(02)2311-6117(代表號)國軍人員申訴專線：1985<br>
+                    最佳瀏覽環境：IE10.0.以上版本.螢幕解析度1024x768<br>
+                    網站更新日期：20170410
+                    </p>
                 </div>
                 <div class="footericon">
                     <div class="footicon01"><img src="img/egov1.jpg" alt="政府網頁" class="responsive_img"></div>
                     <div class="footicon02"><img src="img/logo3.jpg" alt="無障礙標章" class="responsive_img"></div>
                     <div class="footicon03"><img src="img/ISO.gif" alt="ISO認證" class="responsive_img"></div>
                 </div>
+            </div>
         </footer>
         </div>
+
+
+
 </body>
 
 </html>

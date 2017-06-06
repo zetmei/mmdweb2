@@ -126,10 +126,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /*article go*/
 /* line 191, ../sass/screen.scss */
 article {
-  width: 88%;
-  height: 548px;
-  margin: auto;
-  margin-bottom: 2%;
+    width: 88%;
+    height: 475px;
+    margin: auto;
+    margin-bottom: 2%;
 }
 /* line 197, ../sass/screen.scss */
 article .article01 {
@@ -140,7 +140,7 @@ article .article01 {
 /* line 201, ../sass/screen.scss */
 article .article01 > div {
   width: 100%;
-  height: 49%;
+  height: 235px;
 }
 /* line 205, ../sass/screen.scss */
 article .article01 .news {
@@ -252,7 +252,7 @@ article .article01 .post .article01Contain02 div a {
 /* line 307, ../sass/screen.scss */
 article .article02 {
   width: 39%;
-  height: 543px;
+  height: 476px;
   float: left;
   margin-left: 1%;
   border: 3px solid #015b97;
