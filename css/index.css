@@ -169,6 +169,7 @@ article .article01 .news .article01Contain01,article .article01 .post .article01
   width: 90%;
     border: 3px solid #015b97;;
   box-sizing: border-box;
+    background-color: #fff;
 }
 /* line 227, ../sass/screen.scss */
 article .article01 .news .article01Contain01 > div {
@@ -257,6 +258,7 @@ article .article02 {
   border: 3px solid #015b97;
   box-sizing: border-box;
   overflow: hidden;
+    background-color: #fff;
 }
 /* line 315, ../sass/screen.scss */
 article .article02 .article02Main {

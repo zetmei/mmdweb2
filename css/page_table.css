@@ -1498,6 +1498,7 @@ aside .aside02, aside .aside01 {
 .article04 .article04-01,.article04 .article04-02,.article04 .article04-03,
 aside .aside02,aside .aside02, aside .aside01{
     border: 3px solid #a2a1a3;
+    background-color: #fff;
 }
 aside .aside02 {
     margin-bottom: 5%;
@@ -1599,6 +1600,9 @@ article,.article03,.article04,.article05{
 body {
     font-family: Arial, 微軟正黑體, "Microsoft JhengHei", sans-seri;
     font-size: 14px;
+}
+body.index{
+    background-color: #f1f1f1;
 }
 th{	
 	font-family: Arial, 微軟正黑體, "Microsoft JhengHei", sans-seri;
