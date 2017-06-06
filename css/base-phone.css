@@ -1,0 +1,369 @@
+
+/*動畫設定*/
+
+.article04  ul li,.aside01 ul li,.aside02 ul li,.navPhone span,.navPhone span::before,.navPhone span::after
+{
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.wrapper
+{
+  position: relative;
+}
+.headerfix
+{
+  width: 100%;
+  height: 150px;
+}
+/*header go*/
+/* line 40, ../sass/screen.scss */
+.wrapper header {
+  position: fixed;
+  height: 150px;
+  z-index: 4;
+  background: #fff;
+}
+/* line 43, ../sass/screen.scss */
+header .logo {
+  max-width: 270px;
+ width: 60%;
+ margin: auto;
+ margin-top: 10px;
+}
+/* line 46, ../sass/screen.scss */
+header .logo img {
+  width: 100%;
+  margin: auto;
+}
+/* line 50, ../sass/screen.scss */
+header .headerSub {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  height: auto;
+  padding: 5px 0;
+}
+/* line 59, ../sass/screen.scss */
+header .headerSub li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  border-right: 1px solid #179de2;
+}
+/* line 64, ../sass/screen.scss */
+header .headerSub li a {
+  color: #179de2;
+}
+.navPhone
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #179de2;
+}
+
+.navPhone span
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5%;
+  margin: auto;
+  display: block;
+  width: 35px;
+  height: 3px;
+  background: white;
+  border-radius: 1px;
+  z-index: 4;
+}
+.navPhone span::before,.navPhone span::after
+{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    background: white;
+
+      border-radius: 1px;
+
+}
+.navPhone .navgo
+{ 
+  background: #6a3906;
+}
+
+.navPhone .navgo::before,.navPhone .navgo::after
+{ 
+  background: #6a3906;
+}
+
+.navPhone span::before
+{
+  top: -8px;
+}
+.navPhone span::after
+{
+  bottom: -8px;
+}
+/*nav go*/
+.navFox
+{
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  z-index: 3;
+  display: none;
+}
+/* line 74, ../sass/screen.scss */
+nav {
+  display: none;
+  position: fixed;
+  z-index: 3;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  overflow: auto;
+  background: url("../img/navBg-phone.jpg") left top no-repeat;
+  background-size: 100% 100%;
+}
+nav .nav01
+{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 80, ../sass/screen.scss */
+nav .nav01 .nav01Top {
+
+}
+/* line 84, ../sass/screen.scss */
+nav .nav01 > li {
+  font-size: 0;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 89, ../sass/screen.scss */
+nav .nav01 > li span {
+  position: relative;
+}
+/* line 92, ../sass/screen.scss */
+nav .nav01 > li img {
+  position: absolute;
+  right: 15%;
+  height: 100%;
+}
+/* line 98, ../sass/screen.scss */
+nav .nav01 > li .nav02 {
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+/* line 103, ../sass/screen.scss */
+nav .nav01 > li .nav02 > li {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+/* line 108, ../sass/screen.scss */
+nav .nav01 > li .nav02 > li > a {
+  padding: 15px 0;
+  display: block;
+  width: 100%;
+}
+/* line 113, ../sass/screen.scss */
+nav .nav01 > li .bg01 {
+  background: #57e1fd;
+}
+/* line 116, ../sass/screen.scss */
+nav .nav01 > li .bg02 {
+  background: #4cd5f8;
+}
+/* line 119, ../sass/screen.scss */
+nav .nav01 > li .bg03 {
+  background: #40c9f3;
+}
+/* line 122, ../sass/screen.scss */
+nav .nav01 > li .bg04 {
+  background: #31b9ed;
+}
+/* line 125, ../sass/screen.scss */
+nav .nav01 > li .bg05 {
+  background: #26ade8;
+}
+/* line 128, ../sass/screen.scss */
+nav .nav01 > li .bg06 {
+  background: #1ba1e4;
+}
+/* line 132, ../sass/screen.scss */
+
+/* line 135, ../sass/screen.scss */
+nav li {
+  text-align: center;
+  color: white;
+}
+/* line 139, ../sass/screen.scss */
+nav a {
+  color: white;
+}
+/* line 142, ../sass/screen.scss */
+nav span {
+  display: block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+/*search go*/
+/* line 153, ../sass/screen.scss */
+#search {
+  position: relative;
+}
+/* line 159, ../sass/screen.scss */
+.searchMain {
+  text-align: center;
+  height: 50px;
+  color: white;
+  position: relative;
+
+}
+/* line 163, ../sass/screen.scss */
+ .searchMain p {
+  width: 88%;
+  margin: auto;
+  margin-top: 1%;
+}
+/* line 168, ../sass/screen.scss */
+ .searchMain div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid #179de2;
+  border-radius: 20px;
+  background: white;
+  width: 70%;
+  height: 30px;
+
+}
+/* line 174, ../sass/screen.scss */
+ .searchMain div img {
+  height: 90%;
+  float: left;
+}
+/* line 178, ../sass/screen.scss */
+.searchMain div input {
+  float: left;
+  width: 85%;
+  border: 0;
+  height: 100%;
+}
+ .searchMain div input:focus
+{
+ border: 0px rgba(0,0,0,0);
+}
+.searchMain button
+{
+  background: #fff;
+   float: left;
+   border: 0;
+}
+
+/*footer*/
+/* line 650, ../sass/screen.scss */
+footer
+{
+  width: 100%;
+    background: #e4f0f4;
+}
+footer>div {
+  width: 98%;
+  margin: auto;
+  position: relative;
+  padding: 20px 0;
+  height: auto;
+  overflow: hidden;
+
+}
+/* line 655, ../sass/screen.scss */
+footer .footerText {
+
+  width: 100%;
+}
+/* line 658, ../sass/screen.scss */
+footer .footerText div {
+  padding: 20px 0;
+}
+footer .footerText  p
+{
+   line-height: 1.2;
+   letter-spacing: 1px;   
+    padding: 0 15px;
+}
+/* line 660, ../sass/screen.scss */
+footer .footerText div span {
+    padding: 0 10px;
+    border-right: 1px solid #a5a5a5;
+    font-weight: 900;
+    margin-top: 5px;
+    float: left;
+
+}
+/* line 663, ../sass/screen.scss */
+footer .footerText div span a {
+  color: black;
+  margin-left: 5px;
+
+}
+/* line 670, ../sass/screen.scss */
+footer .footericon {
+  font-size: 0;
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+}
+/* line 678, ../sass/screen.scss */
+footer .footericon .footicon01 {
+  width: 26%;
+  float: left;
+}
+/* line 683, ../sass/screen.scss */
+footer .footericon .footicon02 {
+  width: 74%;
+  float: left;
+}
+/* line 688, ../sass/screen.scss */
+footer .footericon .footicon03 {
+  width: 100%;
+}
+
+
+@media screen and (max-width:450px)
+{
+
+header .logo
+{
+  margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:400px)
+{
+
+.searchMain div input {
+  float: left;
+  width: 78%;
+  border: 0;
+  height: 100%;
+}
+}

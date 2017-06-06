@@ -1,0 +1,130 @@
+/* aside go */
+aside
+{
+
+  float: left;
+  width: 20%;
+  margin: 3%;
+  margin-right: 0;
+}
+aside ul
+{
+  width: 100%;
+}
+aside ul li
+{
+  padding: 30px 10px;
+  padding-right: 0;
+  border: 1px solid #179de2; 
+}
+aside ul li a
+{
+  /* color: #179de2; */
+  /* color: #046eb8; */
+}
+aside ul .topLi
+{
+  background: url('../img/page/pageNav.png') left top no-repeat;
+  background-size: 100% 100%;
+}
+aside ul .topLi 
+{
+  color: white;
+  text-align: center;
+}
+
+aside ul li:hover a {
+  color: #6a3906;
+}
+
+aside ul .asideActive a
+{
+  color: #046eb8;
+}
+aside ul .asideActive:hover a
+{
+  color: #046eb8;
+}
+
+
+
+/* article go */
+article
+{
+  float: left;
+margin: 3% 2%;
+margin-right: 0;
+  width: 72%;
+}
+
+
+article .subArticle li
+{
+    padding: 3px 0;
+ float: left;
+}
+
+article .subArticle li a
+{
+
+color: #b4b4b4;
+}
+article .subArticle .nowPage a
+{
+  color: #046eb8;
+}
+article .articleTitle
+{
+  position: relative;
+  height: 60px;
+  border-bottom: 3px solid #046eb8;
+  margin-bottom: 3%;
+}
+article .articleTitle h1
+{
+  margin-top: 1%;
+  color: #046eb8;
+  font-weight: 900;
+  line-height: 60px;
+}
+.article .articleTitle img {
+    bottom: 8px;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 37px;
+    height: auto;
+}
+
+article .articleText h2
+{
+  line-height: 2;
+font-weight: 700;
+}
+
+article .articleText p
+{
+line-height: 2;
+}
+
+article .articleBt 
+{
+  margin-top: 5%;
+  height: 60px;
+}
+article .articleBt a
+{
+  float: left;
+  margin-left: 2%;
+  height: 100%;
+}
+article .articleBt img
+{
+  height: 100%;
+}
+article .articleBt a:nth-child(1)
+{
+  margin-left: 0;
+}
+
+

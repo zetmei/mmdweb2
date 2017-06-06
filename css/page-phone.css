@@ -1,0 +1,128 @@
+/* aside go */
+aside
+{
+
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+
+}
+aside ul
+{
+  width: 100%;
+}
+aside ul li
+{
+  padding: 15px 10px;
+  padding-right: 0;
+  border: 1px solid #179de2; 
+}
+aside ul li a
+{
+  color: #179de2;
+}
+aside ul .topLi
+{
+  background: url('../img/page/pageNav.png') left top no-repeat;
+  background-size: 100% 100%;
+}
+aside ul .topLi 
+{
+  position: relative;
+  color: white;
+  text-align: center;
+}
+aside ul .asideActive a
+{
+  color: #046eb8;
+}
+aside ul ul
+{
+  display: none;
+}
+aside ul .topLi img {
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  height: 100%;
+  float: right;
+}
+
+/* article go */
+article
+{
+  
+  margin: auto;
+    margin-top: 3%;
+  width: 90%;
+}
+
+
+article .subArticle li
+{
+    padding: 3px 0;
+ float: left;
+}
+
+article .subArticle li a
+{
+
+color: #b4b4b4;
+}
+article .subArticle .nowPage a
+{
+  color: #179de2;
+}
+article .articleTitle
+{
+  position: relative;
+  height: 50px;
+  border-bottom: 3px solid #046eb8;
+  margin-bottom: 3%;
+}
+article .articleTitle h1
+{
+  margin-top: 1%;
+  color: #046eb8;
+  font-weight: 900;
+  line-height: 50px;
+}
+article .articleTitle img
+{
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+}
+
+
+article .articleText h2
+{
+  line-height: 2;
+font-weight: 700;
+}
+
+article .articleText p
+{
+line-height: 2;
+}
+
+article .articleBt 
+{
+  margin-top: 5%;
+  height: auto;
+  overflow: hidden;
+}
+article .articleBt a
+{
+
+  margin: auto;
+  height: 45px;
+}
+article .articleBt img
+{
+  display: block;
+  margin: auto;
+  height: 45px;
+}

@@ -1,0 +1,156 @@
+
+nav a,.nav01 > li span
+{
+    letter-spacing: 1px;
+   /*  font-weight: bolder; */
+}
+
+#search input
+{
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
+
+.newsTitle h2,.post h2,.article02Title h2,.article03Title h2,aside h2,.article04 h2,.article04-01 h2
+{
+	/* font-size: 3rem; */
+	letter-spacing: 5px;
+}
+
+.Contain01right>div,article,.article04 {
+	font-size: .8rem;
+}
+.article02 .article02Main .article02Text,footer div
+{
+	font-size: .7rem;
+}
+.article01Contain02
+{
+	font-size: 1.2rem;
+}
+.subText h3
+{
+  font-size: 1.5rem;
+}
+.subText a
+{
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+.footer li span
+{
+	font-size: 1.2rem;
+}
+
+.page article h1
+{
+	
+	/* font-size: 2rem; */
+}
+
+.page article h2
+{
+	/* font-size: 1.5rem; */
+}
+
+/* .page article .news tr td
+{
+	font-size: 1rem;
+} */
+
+@media screen and (min-width: 1680px) 
+{
+html
+{
+	/**這是改變所有文字的大小*/
+	font-size: 16px;
+}
+}
+
+@media screen and (max-width: 1120px)  and (min-width: 801px)
+{
+html
+{
+	/**這是改變所有文字的大小*/
+	font-size: 14px;
+}
+
+
+
+}
+
+@media screen and (max-width: 800px) 
+{
+html
+{
+	/**這是改變所有文字的大小*/
+	font-size: 14px;
+}
+.newsTitle h2,.post h2,.article02Title h2,.article03Title h2,aside h2,.article04 h2,.article04-01 h2
+{
+	/* font-size: 2rem; */
+}
+
+article .article01 .news .article01Contain01 > div a .Contain01right h3
+{
+	font-size: 1.6rem;
+}
+article .article01 .news .article01Contain01 > div a .Contain01right div
+{
+	font-size: 1.2rem;
+}
+h3
+{
+	letter-spacing: 0;
+}
+.article02 .article02Main .article02Text, footer div
+{
+	font-size: 1.2rem;
+}
+
+.page aside ul li 
+{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.page aside ul .topLi
+{
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.page .articleText
+{
+	font-size: 1.2rem;
+}
+.page  article .subArticle 
+{
+	font-size: 1rem;
+}
+.page article .news tr td
+{
+	font-size: 1.2rem;
+}
+}
+@media screen and (max-width: 400px) 
+{
+html
+{
+	/**這是改變所有文字的大小*/
+	font-size: 12px;
+}
+/* .ranking .productText
+{
+	font-size: .8rem;
+}
+.ranking .price02,.ranking .price04
+{
+  font-size: .3rem;
+}
+.ranking .price03
+{
+	font-size: .6rem;
+} */
+
+}

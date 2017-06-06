@@ -1,0 +1,318 @@
+
+/* line 26, ../sass/screen.scss */
+
+
+/*header go*/
+/* line 40, ../sass/screen.scss */
+.headerFox
+{
+  width: 100%;
+  height: 170px;
+}
+header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 110px;
+  z-index: 3;
+}
+/* line 43, ../sass/screen.scss */
+header .logo {
+  height: 100%;
+  float: left;
+}
+header .logo {
+    height: 75%;
+    float: left;
+    /* margin-top: 1%; */
+    margin-top: 16px;
+}
+/* line 46, ../sass/screen.scss */
+header .logo img {
+  height: 100%;
+}
+/* line 50, ../sass/screen.scss */
+header .headerSub {
+  position: absolute;
+  top: 35px;
+  bottom: 0;
+  right: 3%;
+  margin: auto;
+  width: 400px;
+}
+/* line 59, ../sass/screen.scss */
+header .headerSub li {
+  position: relative;
+  float: left;
+  width: 25%;
+  text-align: center;
+  line-height: 50px;
+
+
+}
+
+header .headerSub li::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 1px;
+  height: 30%;
+    background: #8c8c8c;
+}
+/* line 64, ../sass/screen.scss */
+header .headerSub li a {
+    color: #000000;
+}
+
+
+
+header .headerText
+{
+    color: #000000;
+  position: absolute;
+  right: 3%;
+    top: 22px;
+    letter-spacing: .1rem;
+    height: auto;
+    overflow: hidden;
+    padding: 2px 0;
+}
+
+header .hearderLest
+{
+    position: absolute;
+    right: 3%;
+    width: 13%;
+    top: 78px;
+}
+header .hearderLest div
+{
+  width: 50%;
+  float: left;
+}
+
+
+/*nav go*/
+/* line 74, ../sass/screen.scss */
+nav {
+  z-index: 3;
+  position: fixed;
+  top: 110px;
+  left: 0;
+  background: url("../img/navBg.png") left top no-repeat;
+  background-size: 100% 100%;
+  float: left;
+  height: 60px;
+}
+/* line 80, ../sass/screen.scss */
+nav .nav01 .nav01Top {
+  margin-left: 2%;
+}
+/* line 84, ../sass/screen.scss */
+nav .nav01 > li {
+  font-size: 0;
+  height: 100%;
+  float: left;
+  width: 16%;
+}
+/* line 89, ../sass/screen.scss */
+nav .nav01 > li span {
+  position: relative;
+  color: #000000;
+}
+/* line 92, ../sass/screen.scss */
+nav .nav01 > li img {
+  position: absolute;
+  height: 100%;
+  float: right;
+  width: 22px;
+  height: auto;
+  margin-top: 13px;
+    margin-left: 4px;
+}
+/* line 98, ../sass/screen.scss */
+nav .nav01 > li .nav02 {
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+/* line 103, ../sass/screen.scss */
+nav .nav01 > li .nav02 > li {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+/* line 108, ../sass/screen.scss */
+nav .nav01 > li .nav02 > li > a {
+  padding: 15px 0;
+  display: block;
+  width: 100%;
+}
+/* line 113, ../sass/screen.scss */
+nav .nav01 > li .bg01 {
+  background: #57e1fd;
+}
+/* line 116, ../sass/screen.scss */
+nav .nav01 > li .bg02 {
+  background: #4cd5f8;
+}
+/* line 119, ../sass/screen.scss */
+nav .nav01 > li .bg03 {
+  background: #40c9f3;
+}
+/* line 122, ../sass/screen.scss */
+nav .nav01 > li .bg04 {
+  background: #31b9ed;
+}
+/* line 125, ../sass/screen.scss */
+nav .nav01 > li .bg05 {
+  background: #26ade8;
+}
+/* line 128, ../sass/screen.scss */
+nav .nav01 > li .bg06 {
+  background: #1ba1e4;
+}
+/* line 132, ../sass/screen.scss */
+nav .nav01 > li:hover .nav02 {
+  display: block;
+}
+
+/* line 135, ../sass/screen.scss */
+nav li {
+  text-align: center;
+  color: white;
+}
+/* line 139, ../sass/screen.scss */
+nav a {
+  color: white;
+}
+nav .nav01 > li:hover .nav02 li:hover a {
+  color: #004b91;
+}
+/* line 142, ../sass/screen.scss */
+nav span {
+  display: block;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+
+
+/*.footer go*/
+/* line 617, ../sass/screen.scss */
+.footer {
+  background: transparent url("../img/footerBg.jpg") left top no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  text-align: left;
+  padding: 50px 0;
+}
+/* line 624, ../sass/screen.scss */
+.footer > ul {
+  width: 84%;
+  margin: auto;
+  margin-left: 10%;
+}
+/* line 628, ../sass/screen.scss */
+.footer > ul > li {
+  width: 16.6%;
+  float: left;
+  padding: 2px;
+}
+.footer > ul > li span
+{
+  color: #004b91;
+  letter-spacing: .1rem;
+  font-weight: 900;
+}
+/* line 631, ../sass/screen.scss */
+.footer > ul > li ul {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+/* line 636, ../sass/screen.scss */
+.footer > ul > li ul li {
+  width: 100%;
+  padding: 10px 0;
+}
+/* line 639, ../sass/screen.scss */
+.footer > ul > li ul li a {
+  color: white;
+}
+.footer > ul > li ul li:hover a
+{
+  color: #004b91;
+} 
+
+
+/*footer*/
+/* line 650, ../sass/screen.scss */
+footer
+{
+  width: 100%;
+    background: #e4f0f4;
+}
+footer>div {
+  width: 68%;
+  margin: auto;
+  position: relative;
+  padding: 20px 0;
+  height: auto;
+  overflow: hidden;
+
+}
+/* line 655, ../sass/screen.scss */
+footer .footerText {
+  float: left;
+  width: 78%;
+}
+/* line 658, ../sass/screen.scss */
+footer .footerText div {
+  padding: 20px 0;
+}
+footer .footerText  p
+{
+   line-height: 1.2;
+   letter-spacing: 1px;
+}
+/* line 660, ../sass/screen.scss */
+footer .footerText div span {
+  padding: 0 5px;
+  border-right: 1px solid black;
+  font-weight: 900;
+}
+/* line 663, ../sass/screen.scss */
+footer .footerText div span a {
+  color: black;
+      letter-spacing: 1px;
+}
+/* line 670, ../sass/screen.scss */
+footer .footericon {
+  font-size: 0;
+  width: 10%;
+  position: absolute;
+  top: 15%;
+  bottom: 0;
+  right: 10%;
+}
+/* line 678, ../sass/screen.scss */
+footer .footericon .footicon01 {
+  width: 26%;
+  float: left;
+}
+/* line 683, ../sass/screen.scss */
+footer .footericon .footicon02 {
+  width: 74%;
+  float: left;
+}
+/* line 688, ../sass/screen.scss */
+footer .footericon .footicon03 {
+  width: 100%;
+}
